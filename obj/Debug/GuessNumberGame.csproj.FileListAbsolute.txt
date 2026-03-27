@@ -1,0 +1,7 @@
+A:\Учёба\4 семестр\Технологии программирования\GuessNumberGame\obj\Debug\GuessNumberGame.csproj.AssemblyReference.cache
+A:\Учёба\4 семестр\Технологии программирования\GuessNumberGame\obj\Debug\GuessNumberGame.csproj.CoreCompileInputs.cache
+A:\Учёба\4 семестр\Технологии программирования\GuessNumberGame\bin\Debug\GuessNumberGame.exe.config
+A:\Учёба\4 семестр\Технологии программирования\GuessNumberGame\bin\Debug\GuessNumberGame.exe
+A:\Учёба\4 семестр\Технологии программирования\GuessNumberGame\bin\Debug\GuessNumberGame.pdb
+A:\Учёба\4 семестр\Технологии программирования\GuessNumberGame\obj\Debug\GuessNumberGame.exe
+A:\Учёба\4 семестр\Технологии программирования\GuessNumberGame\obj\Debug\GuessNumberGame.pdb
