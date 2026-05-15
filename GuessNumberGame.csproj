@@ -42,8 +42,18 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
   </ItemGroup>
+  <!-- NuGet Package References for DI Container -->
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection">
+      <Version>6.0.0</Version>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions">
+      <Version>6.0.0</Version>
+    </PackageReference>
+  </ItemGroup>
   <ItemGroup>
     <Compile Include="Configuration\GameConfiguration.cs" />
+    <Compile Include="DI\ServiceRegistration.cs" />
     <Compile Include="Interfaces\IInputService.cs" />
     <Compile Include="Interfaces\IGameLogic.cs" />
     <Compile Include="Interfaces\IInputValidator.cs" />
@@ -52,10 +62,12 @@
     <Compile Include="Interfaces\IRandomNumberGenerator.cs" />
     <Compile Include="Interfaces\IOutputService.cs" />
     <Compile Include="Logic\GameController.cs" />
-    <Compile Include="Logic\DifficultyLevels.cs" />
+    <Compile Include="Logic\DifficultySelector.cs" />
+    <Compile Include="Logic\GamePlayManager.cs" />
     <Compile Include="Logic\GuessNumberGameLogic.cs" />
     <Compile Include="Models\DifficultyLevel.cs" />
     <Compile Include="Models\GameResult.cs" />
+    <Compile Include="Models\GuessResult.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\NumberInputValidator.cs" />
@@ -65,6 +77,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="ARCHITECTURE.md" />
+    <None Include="SOLID_PRINCIPLES.md" />
+    <None Include="DI_CONTAINER_GUIDE.md" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
